@@ -1,0 +1,100 @@
+.footer-bg {
+  background-color: var(--cor-04);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  margin-left: 200px;
+}
+
+.footer-first img {
+  max-width: 130px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  margin-left: -60px;
+}
+
+.footer-first-texto,
+.footer-first-tel,
+.footer-first-email {
+  color: var(--cor-0);
+  font-size: 0.875rem;
+  padding-bottom: 20px;
+  position: relative;
+  margin-left: -30px;
+  max-width: 42ch;
+}
+
+.footer-first-texto img {
+  position: absolute;
+  left: -30px;
+  width: 12px;
+  height: auto;
+}
+.footer-first-email img {
+  position: absolute;
+  left: -30px;
+  width: 15px;
+  height: auto;
+}
+
+.footer-first-tel img {
+  position: absolute;
+  left: -30px;
+  width: 15px;
+  height: auto;
+}
+
+.footer-first-list {
+  color: var(--cor-0);
+  font-size: 0.875rem;
+}
+
+.footer-first-list ul {
+  padding-top: 42px;
+  margin-left: -150px;
+}
+.footer-first-list li {
+  padding-bottom: 20px;
+}
+
+.footer-first-list li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-second-list {
+  color: var(--cor-0);
+  font-size: 0.875rem;
+}
+
+.footer-second-list ul {
+  padding-top: 42px;
+}
+.footer-second-list li {
+  padding-bottom: 20px;
+}
+
+.footer-second-list li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-icon {
+  color: var(--cor-0);
+  font-size: 0.875rem;
+  padding-top: 40px;
+}
+
+.footer-icon p {
+  margin-top: 48px;
+  margin-left: 42px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 20px;
+}

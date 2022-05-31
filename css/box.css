@@ -1,0 +1,37 @@
+.box-bg {
+  background: linear-gradient(to bottom, #ffffff 40%, #00232c 40%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box {
+  background: var(--cor-0);
+  text-align: center;
+  margin: 0 300px;
+  padding: 80px 80px 80px 80px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.box p {
+  color: var(--cor-04);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.box a {
+  background-color: var(--cor-03);
+  padding: 15px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 148px;
+  font-weight: 600;
+  font-size: 1.25 rem;
+  color: var(--cor-0);
+  text-align: center;
+}
+
+.box a:hover {
+  background-color: var(--cor-06);
+}
